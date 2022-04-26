@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.page-container {
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    min-height: 205vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* html {
+    background: rgb(242, 209, 217);
+    background: linear-gradient(145deg, rgba(242, 209, 217, 1) 2%, rgba(206, 223, 226, 1) 12%, rgba(209, 222, 226, 1) 24%, rgba(214, 221, 225, 1) 33%, rgba(220, 219, 224, 1) 43%, rgba(231, 214, 219, 1) 52%, rgba(204, 224, 226, 1) 60%, rgba(212, 220, 224, 1) 78%, rgba(236, 211, 218, 1) 82%, rgba(208, 222, 225, 1) 86%, rgba(235, 212, 219, 1) 91%, rgba(203, 224, 226, 1) 100%, rgba(203, 224, 226, 1) 2222%, rgba(235, 212, 219, 1) 2222%);
+} */
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0.6rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+hr {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sign-in-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.2rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 7px 30px -10px rgb(150 170 180 / 50%);
+}
+
+.mail-section {
+    width: 25rem;
+    padding: 1rem 1.8rem;
+    border: none;
+    border: 2px solid #7C4DFF;
+    border-radius: 10px;
+    border-color: #d1d5db;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 rgb(0 0 0 / 0%), 0 0 rgb(0 0 0 / 0%), 0 1px 2px 0 rgb(0 0 0 / 5%);
+}
+
+.check {
+    margin-bottom: 2rem;
+}
+
+.remember {
+    margin-left: 1rem;
+}
+
+.social-login {
+    list-style: none;
+    display: flex;
+    margin-left: 7rem;
+}
+
+.fb {
+    width: 0rem;
+    margin: 1.8rem 0 1rem 2.5rem;
+}
+
+.icon {
+    width: 2.2rem;
+}
+
+.btn {
+    width: 25rem;
+    font-weight: 500;
+    background-color: #7C4DFF;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    /* margin-left: 2.9rem; */
+    border: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 14px 26px -12px rgb(124 77 255 / 42%), 0 4px 23px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(124 77 255 / 20%);
+}
+
+.btn-1 {
+    width: 25rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 0.5rem;
+    color: #7C4DFF;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    /* margin-left: 2.9rem; */
+    border: 2px solid #7C4DFF;
+}
+
+.btn-1:hover {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #7C4DFF;
+    cursor: pointer;
+}
+
+
+
+.feature-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem
+}
+
+.feature-text-bold{
+    font-weight: 600;
+}
+
+.box-1 {
+    width: 32rem;
+    background: rgba(37, 36, 36, 0.08);
+    backdrop-filter: blur(200%);
+    border-radius: 10px;
+    padding: 1.6rem 1rem;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 7px 30px -10px rgb(150 170 180 / 50%);
+}
+
+p img {
+    width: 6.2rem;
+}
+
+.feature-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.footer-nev{
+    float: right;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: -1rem;
+}
+
+.md{
+    text-decoration: none ;
+    color: #333;
+    font-size: .8rem;
+}
+
+.md:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.copyright{
+    margin-top: -1rem;
+    color: #333;
+    font-size: .8rem;
+}
+
+.footer-section{
+    max-width:90%;
+    margin:1rem auto;
+}
+
+@media (max-width: 862px) {
+    .feature-box {
+        flex-wrap: wrap;
+        width: 40rem;
+    }
+    .page-container {
+       min-height: 690vh;
+    }
+    .footer-section{
+        max-width:90%;
+        margin:1rem auto;
+    }
+}
+
+@media (max-width: 644px) {
+    .page-container {
+       min-height: 90vh;
+    }
+    .welcome-container, .footer-section{
+        width:40rem !important;
+        margin:1rem auto 0 2rem;
+    }
+    .footer-hr {
+        width: 36rem;
+        border-top: 1px solid #f8f8f8;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      }
+}
+
