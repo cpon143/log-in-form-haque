@@ -154,6 +154,10 @@ p img {
     width: 6.2rem;
 }
 
+.description{
+    color: #555;
+}
+
 .feature-heading {
     font-size: 1.2rem;
     font-weight: 500;
@@ -263,7 +267,7 @@ p img {
 
     .btn {
         width: 34rem;
-        padding: 1.4rem 1.25rem;
+        padding: 1.2rem 1.25rem;
         font-size: 1.5rem;
     }
 
@@ -278,7 +282,7 @@ p img {
 
     .btn-1 {
         width: 34rem;
-        padding: 1.2rem 1.25rem;
+        padding: 0.9rem 1.25rem;
         font-size: 1.5rem;
     }
 }
