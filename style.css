@@ -231,22 +231,54 @@ p img {
     }
 }
 
-@media (max-width: 644px) {
+@media (max-width: 411px) {
     .sign-in-section {
         width: 38rem;
-        margin-left: -2rem;
+        /* height: auto; */
+
+    }
+
+    .mail-section {
+        width: 25rem;
+        height: 4rem;
+        font-size: 2rem;
+        color: #777;
     }
 
     h2 {
         font-size: 2.8rem;
     }
+
     h4 {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
     }
-    .mail-section{
+
+    .mail-section {
         width: 34rem;
     }
+
+    .remember {
+        font-size: 1.8rem;
+    }
+
     .btn {
         width: 34rem;
+        padding: 1.4rem 1.25rem;
+        font-size: 1.5rem;
+    }
+
+    .social-login {
+        margin-left: 10rem;
+        gap: 2rem;
+    }
+
+    .icon {
+        width: 3.2rem;
+    }
+
+    .btn-1 {
+        width: 34rem;
+        padding: 1.2rem 1.25rem;
+        font-size: 1.5rem;
     }
 }
