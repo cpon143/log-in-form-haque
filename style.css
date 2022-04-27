@@ -169,13 +169,13 @@ p img {
     margin-top: -1rem;
 }
 
-.md{
+.footer-items{
     text-decoration: none ;
     color: #333;
     font-size: .8rem;
 }
 
-.md:hover{
+.footer-items:hover{
     cursor: pointer;
     text-decoration: underline;
 }
@@ -203,7 +203,7 @@ p img {
         width: 40rem;
     }
     .page-container {
-       min-height: 690vh;
+       min-height: 120rem;
     }
     .footer-section{
         max-width:90%;
@@ -213,7 +213,7 @@ p img {
 
 @media (max-width: 644px) {
     .page-container {
-       min-height: 90vh;
+       min-height:120rem;
     }
     .welcome-container, .footer-section{
         width:40rem !important;
