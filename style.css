@@ -6,6 +6,11 @@
 
 }
 
+.welcome-container{
+    background-color: rgb(178, 190, 188);
+    clip-path: polygon(0 40%, 80% 0%, 100% 84%, 0 80%);
+}
+
 .page-container {
     max-width: 100%;
     position: relative;
@@ -42,9 +47,16 @@ hr {
 .sign-in-section {
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 1.2rem 2rem;
+    padding: 1.2rem 0.4rem;
     margin-bottom: 2rem;
     box-shadow: 0 7px 30px -10px rgb(150 170 180 / 50%);
+    background-color: #a5c8e9;
+}
+
+.frame{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1.2rem;
 }
 
 .mail-section {
