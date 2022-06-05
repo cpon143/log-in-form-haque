@@ -6,10 +6,7 @@
 
 }
 
-.welcome-container{
-    background-color: rgb(178, 190, 188);
-    clip-path: polygon(0 40%, 80% 0%, 100% 84%, 0 80%);
-}
+
 
 .page-container {
     max-width: 100%;
@@ -53,13 +50,77 @@ hr {
     background-color: #a5c8e9;
 }
 
-.frame{
+.frame {
     background-color: #fff;
     border-radius: 5px;
     padding: 1.2rem;
 }
 
-.mail-section {
+
+
+
+
+
+
+
+.input-group {
+    position: relative;
+    margin-bottom: 1.8rem;
+}
+
+.input {
+    width: 25rem;
+    padding: 0.8rem .8rem;   
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    outline: 2px solid #9e7bfc;
+}
+
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+    font-size: 15px;
+    color: #666;
+}
+
+.input:focus+.input-label,
+.input:valid+.input-label {
+    transform:
+        translate(10px, -14px) scale(1.1);
+    color: #000000;
+    padding-inline: 5px;
+    background-color: #ffffff;
+}
+
+.input:is(:focus, :valid) {
+    outline-color: #d1c5fc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .mail-section {
     width: 25rem;
     padding: 1rem 1.8rem;
     border: none;
@@ -68,7 +129,7 @@ hr {
     border-color: #d1d5db;
     margin-bottom: 2rem;
     box-shadow: 0 0 rgb(0 0 0 / 0%), 0 0 rgb(0 0 0 / 0%), 0 1px 2px 0 rgb(0 0 0 / 5%);
-}
+} */
 
 .check {
     margin-bottom: 2rem;
@@ -166,7 +227,7 @@ p img {
     width: 6.2rem;
 }
 
-.description{
+.description {
     color: #555;
 }
 
