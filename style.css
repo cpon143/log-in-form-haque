@@ -76,7 +76,7 @@ hr {
     font: inherit;
     color: rgb(0, 0, 0);
     background-color: transparent;
-    outline: 2px solid #9e7bfc;
+    outline: 2px solid  #d1c5fc;
 }
 
 .input-label {
@@ -99,7 +99,7 @@ hr {
 }
 
 .input:is(:focus, :valid) {
-    outline-color: #d1c5fc;
+    outline-color: #9e7bfc;
 }
 
 
